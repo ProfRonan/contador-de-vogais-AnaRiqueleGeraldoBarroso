@@ -6,5 +6,6 @@ def count_vowels(string:str) -> int:
         result += string.count(i)
     return result
 
-palavra = input("Digite uma palavra: ")
-print(count_vowels(palavra))
+if __name__ == "__main__": 
+    palavra = input("Digite uma palavra: ")
+    print(count_vowels(palavra))
